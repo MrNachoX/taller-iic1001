@@ -1,2 +1,7 @@
+from funciones import saludar
 
-print("Hola mundo")
+print("Como te llamas?")
+
+nombre = input()
+
+saludar(nombre)
